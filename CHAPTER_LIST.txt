@@ -1,6 +1,6 @@
 ch0_intro/00_01_introduction
 ch0_intro/00_02_what_you_should_know
-ch0_intro/ch0_intro/00_03_overview_of_cicd
+ch0_intro/00_03_overview_of_cicd
 ch0_intro/00_04_bitbucket_pipelines_overview
 ch0_intro/00_05_explain_build_minute_limitations
 ch0_intro/00_06_getting_set_up_for_the_course
