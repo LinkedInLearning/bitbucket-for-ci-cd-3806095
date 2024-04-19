@@ -39,7 +39,7 @@ countlines:
 	@find . -type f -name README.md -exec wc -l {} \; | sort -nr
 
 chapterlist:
-	@find . -type f -name README.md | sed 's/\/README.md//' | sed 's/\.\///' | sed '/\./d' | sort | tee CHAPTER_LIST.txt
+	@find . -type f -name README.md | sed 's/\/README.md//' | sed 's/\.\///' | sed '/\./d' | sort #| tee CHAPTER_LIST.txt
 
 overlay:
 	@find . -type f -name README.md | sort | sed 's/^\.\///' | sed 's/\// > /g' | sed 's/ > README.md//'
