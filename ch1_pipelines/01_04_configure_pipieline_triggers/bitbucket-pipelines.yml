@@ -1,0 +1,58 @@
+image: 'atlassian/default-image:3'
+pipelines:
+  default:
+    - parallel:
+        - step:
+            name: Build and Test
+            script:
+              - echo "Your build and test goes here..."
+        - step:
+            name: Lint
+            script:
+              - echo "Your linting goes here..."
+        - step:
+            name: Security scan
+            script:
+              - echo "Your security scan goes here..."
+  branches:
+    feature/*:
+      - stage:
+          name: Staging
+          steps:
+            - step:
+                name: Set up Staging
+                script:
+                  - echo "set up staging deployment"
+            - step:
+                name: Deployment to Staging
+                deployment: staging
+                script:
+                  - echo "Your deployment to staging script goes here..."
+  pull-requests:
+    '**':
+      - stage:
+          name: Staging
+          steps:
+            - step:
+                name: Set up Staging
+                script:
+                  - echo "set up staging deployment"
+            - step:
+                name: Deployment to Staging
+                deployment: staging
+                script:
+                  - echo "Your deployment to staging script goes here..."
+      - stage:
+          name: Production
+          trigger: manual
+          steps:
+            - step:
+                name: Set up Production
+                script:
+                  - echo "set up production deployment"
+            - step:
+                name: Deployment to Production
+                deployment: production
+                script:
+                  - echo "Your deployment to production script goes here..."
+
