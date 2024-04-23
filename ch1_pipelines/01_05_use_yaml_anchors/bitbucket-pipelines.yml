@@ -6,22 +6,18 @@ definitions:
         name: Build and Test
         script:
           - echo "Your build and test goes here..."
-    
     - step: &lint
         name: Lint
         script:
           - echo "Your linting goes here..."
-    
     - step: &security_scan
         name: Security scan
         script:
           - echo "Your security scan goes here..."
-    
     - step: &set_up_staging
         name: Set up Staging
         script:
           - echo "set up staging deployment"
-    
     - step: &deployment_to_staging
         name: Deployment to Staging
         deployment: staging
@@ -29,12 +25,10 @@ definitions:
           - echo "Your deployment to staging script goes here..."
         after-script:
           - echo "Clean up the deployment if anything fails..."
-    
     - step: &set_up_production
         name: Set up Production
         script:
           - echo "set up production deployment"
-    
     - step: &deployment_to_production
         name: Deployment to Production
         deployment: production
@@ -46,44 +40,43 @@ definitions:
 pipelines:
   default:
     - parallel:
-        - *build_and_test
-        - *lint
-        - *security_scan
+        - step: *build_and_test
+        - step: *lint
+        - step: *security_scan
 
   branches:
     feature/*:
       - parallel:
-          - *build_and_test
-          - *lint
-          - *security_scan
+          - step: *build_and_test
+          - step: *lint
+          - step: *security_scan
       - stage:
           name: Staging
           steps:
-            - *set_up_staging
-            - *deployment_to_staging
+            - step: *set_up_staging
+            - step: *deployment_to_staging
     main:
       - parallel:
-          - *build_and_test
-          - *lint
-          - *security_scan
+          - step: *build_and_test
+          - step: *lint
+          - step: *security_scan
       - stage:
           name: Staging
           steps:
-            - *set_up_staging
-            - *deployment_to_staging
+            - step: *set_up_staging
+            - step: *deployment_to_staging
       - stage:
           name: Production
           trigger: manual
           steps:
-            - *set_up_production
-            - *deployment_to_production
-
+            - step: *set_up_production
+            - step: *deployment_to_production
   pull-requests:
     '**':
       - parallel:
-          - *build_and_test
-          - *lint
-          - *security_scan
+          - step: *build_and_test
+          - step: *lint
+          - step: *security_scan
       - stage:
           name: Pull Request
           steps:
@@ -100,5 +93,5 @@ pipelines:
       - stage:
           name: Staging
           steps:
-            - *set_up_staging
-            - *deployment_to_staging
+            - step: *set_up_staging
+            - step: *deployment_to_staging

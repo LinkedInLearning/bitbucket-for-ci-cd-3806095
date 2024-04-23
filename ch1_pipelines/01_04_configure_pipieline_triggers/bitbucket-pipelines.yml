@@ -100,7 +100,6 @@ pipelines:
               name: Security scan
               script:
                 - echo "Your security scan goes here..."
-
       - stage:
           name: Pull Request
           steps:
