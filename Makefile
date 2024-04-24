@@ -1,4 +1,5 @@
-README_FILES := $(shell find . -name 'README.md' -not -path './.git/*')
+README_FILES := $(shell find . -type f -name 'README.md' -not -path './.git/*')
+DIRECTORIES := $(shell find $(PWD) -type f -name 'README.md' -exec dirname {} \;)
 
 hello:
 	@echo "This makefile has the following tasks:"
@@ -28,12 +29,12 @@ footer:
 	@docker pull ghcr.io/managedkaos/readme-footer-generator:main
 	@docker run --rm --volume $(PWD):/data ghcr.io/managedkaos/readme-footer-generator:main
 
-pdf:
-	@echo "Generating PDFs..."
-	@while read -r dir; do \
-		$(MAKE) --no-print-directory --directory $(PROJECT_HOME)/$$dir; \
-	done < CHAPTER_LIST.txt
-	@cd $(PROJECT_HOME);
+pdf: $(DIRECTORIES)
+
+$(DIRECTORIES):
+	@echo "Processing directory: $@"
+	@cd $@ && pandoc README.md -o $(notdir $@)-README.pdf
+	@cd $(PROJECT_HOME)
 
 countlines:
 	@find . -type f -name README.md -exec wc -l {} \; | sort -nr
@@ -45,8 +46,11 @@ overlay:
 	@find . -type f -name README.md | sort | sed 's/^\.\///' | sed 's/\// > /g' | sed 's/ > README.md//'
 
 clean:
+	find . -type f -name \*.pdf -exec rm -vf {} \;
 	find . -type f -name \*.bak -exec rm -vf {} \;
 	find . -type f -name \*.new -exec rm -vf {} \;
 
 nuke: clean
 	find /tmp/ -type f -name \*.pdf -exec rm -vf {} \;
+
+.PHONY: hello spellcheck toc footer pdf countlines chapterlist overlay clean nuke $(DIRECTORIES)

@@ -2,8 +2,6 @@
 
 ## Challenge Scenario
 
-Are you ready to apply what you've learned so far? I hope so because it's time for a challenge! 😀
-
 You're part of a software development team working on an open source application: The Amazing Mobile App.
 
 The team is already using Bitbucket for code repositories and now they're ready to start using Bitbucket Pipelines to automate their CI/CD workflows.
@@ -65,7 +63,7 @@ This challenge should take about 15 minutes to complete.
 
     TODO: Add image for `main` pipeline
 
-1. Create a feature branch and validate the pipeline configuation.
+1. Create a feature branch and validate the pipeline configuration.
 
     TODO: Add image for `feature/*` pipeline
 

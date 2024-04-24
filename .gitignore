@@ -3,3 +3,6 @@ node_modules
 .tmp
 npm-debug.log
 *.bak
+*.new
+*.pdf
+

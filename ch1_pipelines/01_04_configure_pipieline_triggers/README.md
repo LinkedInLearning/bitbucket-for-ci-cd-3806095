@@ -3,7 +3,7 @@
 - [Pipeline Artifacts](https://support.atlassian.com/bitbucket-cloud/docs/use-artifacts-in-steps/
     - only for sharing files between steps
     -
-- [Updload artifacts to downloads](https://support.atlassian.com/bitbucket-cloud/docs/deploy-build-artifacts-to-bitbucket-downloads/)
+- [Upload artifacts to downloads](https://support.atlassian.com/bitbucket-cloud/docs/deploy-build-artifacts-to-bitbucket-downloads/)
     - make files available to download later (zip, tar, etc)
 
 
