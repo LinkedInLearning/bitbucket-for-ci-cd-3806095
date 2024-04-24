@@ -74,3 +74,7 @@ This challenge should take about 15 minutes to complete.
     TODO: Add image for the `default` pipeline
 
 
+<!-- FooterStart -->
+---
+[← 01_06 Challenge: Create a Pipeline](../01_06_challenge/README.md) | [ch1_pipelines/01_04_using_variables_and_secrets →](../../ch2_vars_artifacts/02_01_variables_and_secrets/README.md)
+<!-- FooterEnd -->

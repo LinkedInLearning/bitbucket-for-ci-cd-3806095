@@ -36,3 +36,9 @@ And just to make things interesting, the code needs to be easy to maintain and v
     1. Make sure the code is easy to maintain by minimizing code duplication wherever you can.
 
 This challenge should take about 15 minutes to complete.
+
+
+<!-- FooterStart -->
+---
+[← TITLE HERE](../01_05_use_yaml_anchors/README.md) | [01_07 Solution: Create a Pipeline →](../01_07_solution/README.md)
+<!-- FooterEnd -->

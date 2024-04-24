@@ -12,3 +12,9 @@
 - [Pipes Integrations](https://bitbucket.org/product/features/pipelines/integrations?category=deployment)
 - [Developing Pipes](https://support.atlassian.com/bitbucket-cloud/docs/write-a-pipe-for-bitbucket-pipelines/)
 -
+
+
+<!-- FooterStart -->
+---
+[← ch1_pipelines/01_01_create_a_pipeline](../01_01_create_a_pipeline/README.md) | [README →](../01_03_configure_pipeline_stages/README.md)
+<!-- FooterEnd -->

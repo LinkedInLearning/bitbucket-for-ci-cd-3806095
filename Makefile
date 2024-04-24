@@ -21,12 +21,12 @@ spellcheck:
 toc:
 	@echo "Generating table of contents for README files..."
 	@docker pull ghcr.io/managedkaos/readme-toc-generator:main
-	@docker run --rm ghcr.io/managedkaos/readme-toc-generator:main
+	@docker run --rm --volume $(PWD):/data ghcr.io/managedkaos/readme-toc-generator:main
 
 footer:
 	@echo "Generating footer links for README files..."
 	@docker pull ghcr.io/managedkaos/readme-footer-generator:main
-	@docker run --rm ghcr.io/managedkaos/readme-footer-generator:main
+	@docker run --rm --volume $(PWD):/data ghcr.io/managedkaos/readme-footer-generator:main
 
 pdf:
 	@echo "Generating PDFs..."
