@@ -13,9 +13,10 @@
 02_02_deployment_vars
 02_03_artifacts
 02_04_packages
-02_05_deployments
-02_06_challenge
-02_07_solution
+02_05_pipes
+02_06_deployments
+02_07_challenge
+02_08_solution
 03_01_default_images
 03_02_public_images
 03_03_services
