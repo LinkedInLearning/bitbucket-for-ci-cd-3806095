@@ -13,9 +13,8 @@ ch2_vars_artifacts/02_01_variables_and_secrets
 ch2_vars_artifacts/02_02_deployment_vars
 ch2_vars_artifacts/02_03_artifacts
 ch2_vars_artifacts/02_04_packages
-ch2_vars_artifacts/02_05_pipes
-ch2_vars_artifacts/02_07_challenge
-ch2_vars_artifacts/02_08_solution
+ch2_vars_artifacts/02_05_challenge
+ch2_vars_artifacts/02_06_solution
 ch3_build_envs/03_01_default_images
 ch3_build_envs/03_02_public_images
 ch3_build_envs/03_03_services

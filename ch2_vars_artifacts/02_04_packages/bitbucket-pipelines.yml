@@ -1,0 +1,16 @@
+image: atlassian/default-image:3
+
+pipelines:
+  default:
+    - step:
+        script:
+          - echo "Creating package-${BITBUCKET_BRANCH}-${BITBUCKET_BUILD_NUMBER}.zip"
+          - zip -r package-${BITBUCKET_BRANCH}-${BITBUCKET_BUILD_NUMBER}.zip .
+        artifacts:
+          - '*.zip'
+    - step:
+        script:
+          - pipe: atlassian/bitbucket-upload-file:0.7.1
+            variables:
+              BITBUCKET_ACCESS_TOKEN: $BITBUCKET_ACCESS_TOKEN
+              FILENAME: '*.zip'
