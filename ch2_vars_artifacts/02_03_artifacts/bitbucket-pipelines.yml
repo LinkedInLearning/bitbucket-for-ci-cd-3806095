@@ -1,0 +1,22 @@
+image: atlassian/default-image:3
+
+pipelines:
+  default:
+    - step:
+        name: Build and generate artifacts
+        script:
+          - mkdir logs
+          - date > logs/log-$BITBUCKET_BUILD_NUMBER.txt
+          - echo "Creating zip archive" >> logs/log-$BITBUCKET_BUILD_NUMBER.txt
+          - zip -r ./archive-$BITBUCKET_COMMIT.zip .
+          - stat ./archive-$BITBUCKET_COMMIT.zip >> logs/log-$BITBUCKET_BUILD_NUMBER.txt
+        artifacts:
+          - '*.zip'
+          - logs/**
+    - step:
+        name: Use artifacts
+        script:
+          - echo "Using artifact from previous step"
+          - cat logs/log-$BITBUCKET_BUILD_NUMBER.txt
+          - mkdir target
+          - unzip archive-$BITBUCKET_COMMIT.zip -d ./target
