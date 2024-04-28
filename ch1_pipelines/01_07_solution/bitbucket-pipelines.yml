@@ -23,12 +23,14 @@ definitions:
 pipelines:
   default:
     - parallel:
+        - step: *build_and_test
         - step: *lint
         - step: *security_scan
 
   branches:
     feature/*:
       - parallel:
+          - step: *build_and_test
           - step: *lint
           - step: *security_scan
 
@@ -36,6 +38,7 @@ pipelines:
 
     main:
       - parallel:
+          - step: *build_and_test
           - step: *lint
           - step: *security_scan
 
