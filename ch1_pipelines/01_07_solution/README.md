@@ -20,13 +20,13 @@ And just to make things interesting, the code needs to be easy to maintain and v
 
     1. For the main branch:
 
-        1. Include integration steps that run at the same time.
+        1. Include build and integration steps that run at the same time.
         1. Add pipeline sections that collect all steps for deployments to staging and production environments.
         1. Remove any settings that would require someone to take action for a deployment.
 
     1. For feature branches:
 
-        1. Run integration steps at the same time
+        1. Run build and integration steps at the same time
         1. Deploy to the staging environment.
 
     1. Remove deployments from any other pipeline triggers. These events should only run integration steps.
@@ -55,7 +55,65 @@ This challenge should take about 15 minutes to complete.
 1. View the source for the pipeline configuration.  Select **Edit**.
 1. Update the configuration to the following [bitbucket-pipelines.yml](./bitbucket-pipelines.yml) and select **Commit**.
 
-    TODO: Add the YAML configuration inline
+    ```YAML
+    image: atlassian/default-image:4
+
+    definitions:
+    steps:
+        - step: &build_and_test
+            name: Build and Test
+            script:
+            - echo "Your build and test goes here..."
+        - step: &lint
+            name: Lint
+            script:
+            - echo "Your linting goes here..."
+        - step: &security_scan
+            name: Security scan
+            script:
+            - echo "Your security scan goes here..."
+        - step: &deployment_to_staging
+            name: Deployment to Staging
+            deployment: staging
+            script:
+            - echo "Your deployment to staging script goes here..."
+
+    pipelines:
+    default:
+        - parallel:
+            - step: *build_and_test
+            - step: *lint
+            - step: *security_scan
+
+    branches:
+        feature/*:
+        - parallel:
+            - step: *build_and_test
+            - step: *lint
+            - step: *security_scan
+
+        - step: *deployment_to_staging
+
+        main:
+        - parallel:
+            - step: *build_and_test
+            - step: *lint
+            - step: *security_scan
+
+        - stage:
+            name: Staging
+            steps:
+                - step: *deployment_to_staging
+
+        - stage:
+            name: Production
+            steps:
+                - step:
+                    name: 'Deployment to Production'
+                    deployment: production
+                    script:
+                    - echo "Your deployment to production script goes here..."
+    ```
 
 ### Create Branches to Validate the Pipeline Configuration
 
@@ -70,7 +128,6 @@ This challenge should take about 15 minutes to complete.
 1. Create an arbitrarily named branch and validate the pipeline configuration
 
     TODO: Add image for the `default` pipeline
-
 
 <!-- FooterStart -->
 ---

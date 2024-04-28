@@ -20,13 +20,13 @@ And just to make things interesting, the code needs to be easy to maintain and v
 
     1. For the main branch:
 
-        1. Include integration steps that run at the same time.
+        1. Include build and integration steps that run at the same time.
         1. Add pipeline sections that collect all steps for deployments to staging and production environments.
         1. Remove any settings that would require someone to take action for a deployment.
 
     1. For feature branches:
 
-        1. Run integration steps at the same time
+        1. Run build and integration steps at the same time
         1. Deploy to the staging environment.
 
     1. Remove deployments from any other pipeline triggers. These events should only run integration steps.
