@@ -1,3 +1,5 @@
+# 03_01_default_images
+
 [Use Docker images as build environments | Bitbucket Cloud | Atlassian Support](https://support.atlassian.com/bitbucket-cloud/docs/use-docker-images-as-build-environments/)
 - provides OS for the image
 - lists applications available out-of-the-box

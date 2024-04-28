@@ -1,4 +1,4 @@
-# ch1_pipelines/01_04_using_variables_and_secrets
+# 01_04_using_variables_and_secrets
 
 ## Refernces
 - [Variables and Secrets](https://support.atlassian.com/bitbucket-cloud/docs/variables-and-secrets/)

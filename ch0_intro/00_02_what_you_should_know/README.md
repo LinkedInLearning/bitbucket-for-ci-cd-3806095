@@ -1,4 +1,4 @@
-# ch0_intro/00_02_what_you_should_know
+# 00_02_what_you_should_know
 
 # Following is imported from `ch0_intro/00_06_getting_set_up_for_the_course`
 ## Introduction

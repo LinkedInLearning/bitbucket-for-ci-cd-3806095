@@ -1,4 +1,4 @@
-# ch0_intro/00_01_introduction
+# 00_01_introduction
 
 
 <!-- FooterStart -->

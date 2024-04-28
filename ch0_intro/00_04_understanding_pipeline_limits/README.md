@@ -1,4 +1,4 @@
-# ch0_intro/00_05_explain_build_minute_limitations
+# 00_05_explain_build_minute_limitations
 
 
 <!-- FooterStart -->

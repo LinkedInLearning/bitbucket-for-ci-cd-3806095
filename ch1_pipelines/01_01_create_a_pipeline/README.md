@@ -1,4 +1,4 @@
-# ch1_pipelines/01_01_create_a_pipeline
+# 01_01_create_a_pipeline
 
 # Introduction
 - Create a workspace, project, and an empty repository

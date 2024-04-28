@@ -1,4 +1,4 @@
-# ch1_pipelines/01_02_bitbucket_configuration_overview
+# 01_02_bitbucket_configuration_overview
 
 ## References
 - [Bitbucket Pipelines configuration reference](https://support.atlassian.com/bitbucket-cloud/docs/bitbucket-pipelines-configuration-reference/)
