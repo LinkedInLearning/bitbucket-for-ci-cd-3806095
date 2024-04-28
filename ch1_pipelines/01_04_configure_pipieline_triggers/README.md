@@ -1,4 +1,4 @@
-# 01_03_more_configuration_settings
+# 01_04 Configure Pipeline Triggers
 
 - [Pipeline Artifacts](https://support.atlassian.com/bitbucket-cloud/docs/use-artifacts-in-steps/
     - only for sharing files between steps
@@ -9,5 +9,5 @@
 
 <!-- FooterStart -->
 ---
-[← README](../01_03_configure_pipeline_stages/README.md) | [TITLE HERE →](../01_05_use_yaml_anchors/README.md)
+[← 01_03_configure_pipeline_stages](../01_03_configure_pipeline_stages/README.md) | [01_05_use_yaml_anchors →](../01_05_use_yaml_anchors/README.md)
 <!-- FooterEnd -->

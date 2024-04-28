@@ -16,5 +16,5 @@
 
 <!-- FooterStart -->
 ---
-[← ch1_pipelines/01_01_create_a_pipeline](../01_01_create_a_pipeline/README.md) | [README →](../01_03_configure_pipeline_stages/README.md)
+[← 01_01_create_a_pipeline](../01_01_create_a_pipeline/README.md) | [01_03_configure_pipeline_stages →](../01_03_configure_pipeline_stages/README.md)
 <!-- FooterEnd -->

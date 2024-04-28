@@ -38,5 +38,5 @@ This challenge should take about 15 minutes to complete.
 
 <!-- FooterStart -->
 ---
-[← TITLE HERE](../01_05_use_yaml_anchors/README.md) | [01_07 Solution: Create a Pipeline →](../01_07_solution/README.md)
+[← 01_05_use_yaml_anchors](../01_05_use_yaml_anchors/README.md) | [01_07 Solution: Create a Pipeline →](../01_07_solution/README.md)
 <!-- FooterEnd -->

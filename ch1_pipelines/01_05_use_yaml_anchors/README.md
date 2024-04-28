@@ -6,5 +6,5 @@
 
 <!-- FooterStart -->
 ---
-[← ch1_pipelines/01_03_more_configuration_settings](../01_04_configure_pipieline_triggers/README.md) | [01_06 Challenge: Create a Pipeline →](../01_06_challenge/README.md)
+[← 01_04 Configure Pipeline Triggers](../01_04_configure_pipieline_triggers/README.md) | [01_06 Challenge: Create a Pipeline →](../01_06_challenge/README.md)
 <!-- FooterEnd -->

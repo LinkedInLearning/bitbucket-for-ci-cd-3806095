@@ -8,5 +8,5 @@
 
 <!-- FooterStart -->
 ---
-[← README](../../ch2_vars_artifacts/02_03_tools/README.md) | [Bitbucket for CI/CD →](../../README.md)
+[← 02_06_solution](../../ch2_vars_artifacts/02_06_solution/README.md) | [03_02_public_images →](../03_02_public_images/README.md)
 <!-- FooterEnd -->

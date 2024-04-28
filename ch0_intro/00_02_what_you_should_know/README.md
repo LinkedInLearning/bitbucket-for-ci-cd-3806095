@@ -21,5 +21,5 @@
 
 <!-- FooterStart -->
 ---
-[← ch0_intro/00_01_introduction](../00_01_introduction/README.md) | [ch0_intro/00_03_overview_of_cicd →](../00_03_overview_of_cicd/README.md)
+[← 00_01_introduction](../00_01_introduction/README.md) | [00_03_overview_of_cicd →](../00_03_overview_of_cicd/README.md)
 <!-- FooterEnd -->

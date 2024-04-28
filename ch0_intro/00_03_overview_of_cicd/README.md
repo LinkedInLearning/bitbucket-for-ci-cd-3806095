@@ -5,5 +5,5 @@ Use [Continuous Integration: Tools - What is CI/CD](https://docs.google.com/docu
 
 <!-- FooterStart -->
 ---
-[← ch0_intro/00_02_what_you_should_know](../00_02_what_you_should_know/README.md) | [ch0_intro/00_05_explain_build_minute_limitations →](../00_04_understanding_pipeline_limits/README.md)
+[← 00_02_what_you_should_know](../00_02_what_you_should_know/README.md) | [00_04 Understanding Pipeline Limits →](../00_04_understanding_pipeline_limits/README.md)
 <!-- FooterEnd -->

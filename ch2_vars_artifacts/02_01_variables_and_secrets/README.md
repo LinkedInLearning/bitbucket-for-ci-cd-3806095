@@ -3,7 +3,8 @@
 ## Refernces
 - [Variables and Secrets](https://support.atlassian.com/bitbucket-cloud/docs/variables-and-secrets/)
 
+
 <!-- FooterStart -->
 ---
-[← 01_07 Solution: Create a Pipeline](../../ch1_pipelines/01_07_solution/README.md) | [README →](../02_03_tools/README.md)
+[← 01_07 Solution: Create a Pipeline](../../ch1_pipelines/01_07_solution/README.md) | [02_02_deployment_vars →](../02_02_deployment_vars/README.md)
 <!-- FooterEnd -->
