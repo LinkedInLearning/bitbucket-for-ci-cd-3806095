@@ -1,5 +1,7 @@
 # 00_04 Understanding Pipeline Limits
 
+## References
+- [Limitations of Bitbucket Pipelines](https://support.atlassian.com/bitbucket-cloud/docs/limitations-of-bitbucket-pipelines/)
 
 <!-- FooterStart -->
 ---
