@@ -1,8 +1,8 @@
 # 02_01_using_variables_and_secrets
 
 ## Refernces
-- [Variables and Secrets](https://support.atlassian.com/bitbucket-cloud/docs/variables-and-secrets/)
 
+- [Variables and Secrets](https://support.atlassian.com/bitbucket-cloud/docs/variables-and-secrets/)
 
 <!-- FooterStart -->
 ---

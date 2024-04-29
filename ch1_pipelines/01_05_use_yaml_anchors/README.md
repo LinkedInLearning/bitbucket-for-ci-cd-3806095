@@ -1,8 +1,9 @@
 # 01_05_use_yaml_anchors
 
 ## References
-- [Variables and secrets](https://support.atlassian.com/bitbucket-cloud/docs/variables-and-secrets/)
 
+- [A YAML Syntax reference](https://www.linode.com/docs/guides/yaml-reference/)
+- [YAML Anchors, Aliases, and Overrides](https://www.linode.com/docs/guides/yaml-anchors-aliases-overrides-extensions/)
 
 <!-- FooterStart -->
 ---
