@@ -2,13 +2,15 @@
 
 ## Challenge Scenario
 
-You're part of a software development team working on an open source application: The Amazing Mobile App.
+You're part of a software development team working on an open source application: The Amazing Mobile App. 
 
-The team is already using Bitbucket for code repositories and now they're ready to start using Bitbucket Pipelines to automate their CI/CD workflows.
+The team is already using Bitbucket for code repositories  and now they're ready to start using Bitbucket Pipelines to automate their CI/CD workflows. 
 
-You've been assigned to create a sample pipeline definition that the team can reference. It needs to include steps for continuous integration and continuous deployments to multiple environments.
+You've been assigned to create a pipeline configuration to help the team understand the capabilities of Bitbucket Pipelines.  
 
-And just to make things interesting, the code needs to be easy to maintain and visualize.
+The configuration needs to include steps for continuous integration and continuous deployments to multiple environments.  
+
+The code also needs to be easy to maintain and visualize.
 
 ## Challenge Tasks
 

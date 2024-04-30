@@ -8,5 +8,5 @@
 
 <!-- FooterStart -->
 ---
-[← 02_06_solution](../../ch2_vars_artifacts/02_06_solution/README.md) | [03_02_public_images →](../03_02_public_images/README.md)
+[← 02_06 Solution: Deploy an Artifact](../../ch2_vars_artifacts/02_06_solution/README.md) | [03_02_public_images →](../03_02_public_images/README.md)
 <!-- FooterEnd -->

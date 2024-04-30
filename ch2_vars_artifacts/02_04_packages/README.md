@@ -15,5 +15,5 @@ BITBUCKET_REPO_OWNER
 
 <!-- FooterStart -->
 ---
-[← 02_03: Pipeline Aritifacts](../02_03_artifacts/README.md) | [02_05_challenge →](../02_05_challenge/README.md)
+[← 02_03: Pipeline Aritifacts](../02_03_artifacts/README.md) | [02_05 Challenge: Deploy an Artifact →](../02_05_challenge/README.md)
 <!-- FooterEnd -->
