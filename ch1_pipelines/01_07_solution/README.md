@@ -64,14 +64,17 @@ This challenge should take about 15 minutes to complete.
             name: Build and Test
             script:
             - echo "Your build and test goes here..."
+
         - step: &lint
             name: Lint
             script:
             - echo "Your linting goes here..."
+
         - step: &security_scan
             name: Security scan
             script:
             - echo "Your security scan goes here..."
+
         - step: &deployment_to_staging
             name: Deployment to Staging
             deployment: staging
