@@ -45,7 +45,7 @@ Now, the plugin team needs help updating their continuous delivery workflow.  Th
     ```
 
 1. Confirm that the artifact and package are created successfully.
-1. Confirm that the package is avaiable to anyone with the repository URL.
+1. Confirm that the package is available to anyone with the repository URL.
 
 
 <!-- FooterStart -->

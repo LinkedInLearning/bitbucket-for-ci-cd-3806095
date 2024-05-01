@@ -1,6 +1,6 @@
 # 02_01_using_variables_and_secrets
 
-## Refernces
+## References
 
 - [Variables and Secrets](https://support.atlassian.com/bitbucket-cloud/docs/variables-and-secrets/)
 

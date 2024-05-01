@@ -45,7 +45,7 @@ Now, the plugin team needs help updating their continuous delivery workflow.  Th
     ```
 
 1. Confirm that the artifact and package are created successfully.
-1. Confirm that the package is avaiable to anyone with the repository URL.
+1. Confirm that the package is available to anyone with the repository URL.
 
 ## Solution
 
@@ -96,7 +96,7 @@ Now, the plugin team needs help updating their continuous delivery workflow.  Th
 
 1. Select the **Deployment to Production** step.  Select **Build setup** output and confirm the artifact was downloaded.
 
-  ![Confirm the arifact was downloaded in the "Build setup" step under Production](images/02_06_solution-2.png)
+  ![Confirm the artifact was downloaded in the "Build setup" step under Production](images/02_06_solution-2.png)
 
 1. Select the **pipe: atlassian/bitbucket-upload-file:0.7.1** output and scroll to the end of the output. Confirm the pipe completed the upload successfully.
 
@@ -107,10 +107,11 @@ Now, the plugin team needs help updating their continuous delivery workflow.  Th
 1. Navigate to the repository **Downloads** section.
 1. Confirm that the package is present.
 
-  ![Confirm the package is present in the repositoruy Downloads section](images/02_06_solution-4.png)
+  ![Confirm the package is present in the repository Downloads section](images/02_06_solution-4.png)
 
 1. Copy the link for the repository and open it in an incognito tab.
 1. Confirm that the package can be downloaded.
+
 
 <!-- FooterStart -->
 ---
