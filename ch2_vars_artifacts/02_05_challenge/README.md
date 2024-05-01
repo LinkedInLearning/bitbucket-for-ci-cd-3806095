@@ -23,16 +23,26 @@ Now, the plugin team needs help updating their continuous delivery workflow.  Th
 
     Use the following code snippet:
 
-        zip -r zip -r plugin-$BITBUCKET_BUILD_NUMBER.zip .
+    ```yaml
+    - step: &build_and_test
+        name: Build and Test
+        script:
+          - echo "Your build and test goes here..."
+          - zip -r plugin-$BITBUCKET_BUILD_NUMBER.zip .
+        artifacts:
+          - plugin*.zip
+    ```
 
 1. Update the "Production" stage to create a package using the zip file as an artifact.
 
     Use the following code snippet:
 
-        - pipe: atlassian/bitbucket-upload-file:0.7.1
-          variables:
-            BITBUCKET_ACCESS_TOKEN: $BITBUCKET_ACCESS_TOKEN
-            FILENAME: '*.zip'
+    ```yaml
+    - pipe: atlassian/bitbucket-upload-file:0.7.1
+      variables:
+        BITBUCKET_ACCESS_TOKEN: $BITBUCKET_ACCESS_TOKEN
+        FILENAME: '*.zip'
+    ```
 
 1. Confirm that the artifact and package are created successfully.
 1. Confirm that the package is avaiable to anyone with the repository URL.
