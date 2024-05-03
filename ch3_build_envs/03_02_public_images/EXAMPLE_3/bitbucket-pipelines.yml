@@ -1,0 +1,18 @@
+image: atlassian/default-image:4
+
+pipelines:
+  default:
+    - step:
+        script:
+          - node --version
+          - python3 --version
+    
+    - step:
+        image: node:latest
+        script:
+          - node --version
+    
+    - step:
+        image: python:latest
+        script:
+          - python3 --version

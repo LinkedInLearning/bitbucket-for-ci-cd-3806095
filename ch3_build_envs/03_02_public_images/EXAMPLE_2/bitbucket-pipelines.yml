@@ -1,0 +1,10 @@
+image: rust:slim-buster
+
+pipelines:
+  default:
+    - step:
+        script:
+          - rustc -V
+    - step:
+        script:
+          - rustc -V
