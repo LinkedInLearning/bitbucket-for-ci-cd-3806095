@@ -18,6 +18,7 @@
 03_01_default_images
 03_02_public_images
 03_03_services
-03_04_challenge
-03_05_solution
+03_04_pipes
+03_05_challenge
+03_06_solution
 04_01_next_steps
