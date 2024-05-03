@@ -1,0 +1,32 @@
+image: python:3
+
+definitions:
+  services:
+    database:
+      image: postgres:14.3
+      environment:
+        POSTGRES_DB: 'db'
+        POSTGRES_USER: 'db'
+        POSTGRES_PASSWORD: 'testingtesting123'
+
+pipelines:
+  default:
+    - step:
+        name: Lint
+        script:
+          - pip install pylint flake8
+          - flake8 --exit-zero *.py | tee -a lint-results-${BITBUCKET_BUILD_NUMBER}.txt
+          - pylint --exit-zero *.py | tee -a lint-results-${BITBUCKET_BUILD_NUMBER}.txt
+        artifacts:
+          - lint-results*.txt
+
+    - step:
+        name: Test
+        services:
+          - database
+        script:
+          - pip install pytest psycopg2-binary
+          - pytest -s -rPF --junit-xml=test-results-${BITBUCKET_BUILD_NUMBER}.xml
+        artifacts:
+          - test-results*.xml
+
