@@ -18,7 +18,6 @@ ch2_vars_artifacts/02_06_solution
 ch3_build_envs/03_01_default_images
 ch3_build_envs/03_02_public_images
 ch3_build_envs/03_03_services
-ch3_build_envs/03_04_pipes
-ch3_build_envs/03_05_challenge
-ch3_build_envs/03_06_solution
+ch3_build_envs/03_04_challenge
+ch3_build_envs/03_05_solution
 ch4_conclusion/04_01_next_steps
