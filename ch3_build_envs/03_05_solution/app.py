@@ -10,9 +10,9 @@ def connect_to_db():
     """
     try:
         host = os.getenv("DB_HOST", "localhost")
-        database = os.getenv("DB_NAME", "db")
-        user = os.getenv("DB_USER", "db")
-        password = os.getenv("DB_PASSWORD", "testingtesting123")
+        database = os.getenv("DB_NAME", "testing")
+        user = os.getenv("DB_USER", "testing")
+        password = os.getenv("DB_PASSWORD", "testing")
 
         connection = psycopg2.connect(
             host=host, database=database, user=user, password=password
