@@ -59,7 +59,8 @@ Before making any updates to the feature, the development team would like to tes
             bundle exec ruby app_test.rb
             ```
 
+
 <!-- FooterStart -->
 ---
-[← 03_04: Using Pipes](../03_04_pipes/README.md) | [03_05_solution →](../03_06_solution/README.md)
+[← 03_03_services](../03_03_services/README.md) | [03_05_solution →](../03_05_solution/README.md)
 <!-- FooterEnd -->
