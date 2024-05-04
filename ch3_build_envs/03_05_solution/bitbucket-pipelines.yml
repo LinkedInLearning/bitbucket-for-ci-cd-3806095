@@ -5,9 +5,9 @@ definitions:
     database:
       image: postgres:14.3
       environment:
-        POSTGRES_DB: 'db'
-        POSTGRES_USER: 'db'
-        POSTGRES_PASSWORD: 'testingtesting123'
+        POSTGRES_DB: 'testing'
+        POSTGRES_USER: 'testing'
+        POSTGRES_PASSWORD: 'testing'
 
 pipelines:
   default:
@@ -19,7 +19,7 @@ pipelines:
         script:
           - echo "Your Python tests go here"
           - pip install psycopg2-binary
-          - python3 -m unittest --verbose app_test.py 
+          - python3 -m unittest --verbose app_test.py
     - step:
         image: ruby:3
         services:

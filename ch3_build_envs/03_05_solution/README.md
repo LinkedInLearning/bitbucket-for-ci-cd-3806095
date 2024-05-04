@@ -61,6 +61,16 @@ Before making any updates to the feature, the development team would like to tes
 
 ## Solution
 
+1. Create a new repository and add the exercise files.  This is most easily done by:
+    1. Downloading the exercise files
+    1. Cloning the Bitbucket repo
+    1. Moving the files into your Bitbucket repo
+    1. Pushing the files up to Bitbucket
+1. Edit the pipeline configuration and add `definitions:` block.
+1. Then add the provided `database:` block.
+
+    ```YAML
+    ```
 
 <!-- FooterStart -->
 ---
