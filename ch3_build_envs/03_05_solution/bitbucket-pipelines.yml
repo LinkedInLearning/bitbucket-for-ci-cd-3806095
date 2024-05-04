@@ -12,19 +12,19 @@ definitions:
 pipelines:
   default:
     - step:
-        image: python:3
+        name: Test Python
         services:
           - database
-        name: Test Python
+        image: python:3
         script:
           - echo "Your Python tests go here"
           - pip install psycopg2-binary
           - python3 -m unittest --verbose app_test.py
     - step:
-        image: ruby:3
+        name: Test Ruby
         services:
           - database
-        name: Test Ruby
+        image: ruby:3
         script:
           - echo "Your Ruby tests go here"
           - bundle install

@@ -54,6 +54,7 @@ Before making any updates to the feature, the development team would like to tes
 
         - Test commands:
 
+
             ```bash
             bundle install
             bundle exec ruby app_test.rb
@@ -67,10 +68,28 @@ Before making any updates to the feature, the development team would like to tes
     1. Moving the files into your Bitbucket repo
     1. Pushing the files up to Bitbucket
 1. Edit the pipeline configuration and add `definitions:` block.
-1. Then add the provided `database:` block.
+1. Add the provided `database:` block.
 
     ```YAML
+    definitions:
+      services:
+        database:
+          image: postgres:14.3
+          environment:
+            POSTGRES_DB: 'testing'
+            POSTGRES_USER: 'testing'
+            POSTGRES_PASSWORD: 'testing'
     ```
+1. Add the `database` service to each step using a `service:` block.
+
+    ```YAML
+    services:
+      - database
+    ```
+1. Update each step to use the correct and image and commands to run tests.
+
+The completed pipeline should be simliar to the following: [bitbucket-pipelines.yml](./bitbucket-pipelines.yml)
+
 
 <!-- FooterStart -->
 ---
