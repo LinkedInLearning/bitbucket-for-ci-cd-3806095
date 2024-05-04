@@ -19,8 +19,8 @@ Before making any updates to the feature, the development team would like to tes
 
     ```YAML
     database:
-    image: postgres:14.3
-    environment:
+      image: postgres:14.3
+      environment:
         POSTGRES_DB: 'testing'
         POSTGRES_USER: 'testing'
         POSTGRES_PASSWORD: 'testing'
