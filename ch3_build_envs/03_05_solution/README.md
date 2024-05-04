@@ -13,8 +13,7 @@ Before making any updates to the feature, the development team would like to tes
 ## Challenge Tasks
 
 1. Log into Bitbucket and create a new repository.
-1. Create a pipeline using the provided configuration
-    [bitbucket-pipelines.yml](./bitbucket-pipelines.yml)
+1. Create a pipeline using the provided [bitbucket-pipelines.yml](../03_04_challenge/bitbucket-pipelines.yml) file.
 1. Update the pipeline configuration to include a definition for a postgres database service using the following YAML snippet:
 
     ```YAML
