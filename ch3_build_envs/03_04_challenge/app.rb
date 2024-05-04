@@ -4,9 +4,9 @@ def connect_to_db
   # Connects to the database using environment variables or default values
 
   host = ENV['DB_HOST'] || 'localhost'
-  database = ENV['DB_NAME'] || 'db'
-  user = ENV['DB_USER'] || 'db'
-  password = ENV['DB_PASSWORD'] || 'testingtesting123'
+  database = ENV['DB_NAME'] || 'testing'
+  user = ENV['DB_USER'] || 'testing'
+  password = ENV['DB_PASSWORD'] || 'testing'
 
   begin
     connection = PG::Connection.new(host: host, dbname: database, user: user, password: password)
