@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+gem 'pg'          # For PostgreSQL connection
+gem 'minitest'    # For testing
+
