@@ -87,7 +87,7 @@ Before making any updates to the feature, the development team would like to tes
     ```
 1. Update each step to use the correct and image and commands to run tests.
 
-The completed pipeline should be simliar to the following: [bitbucket-pipelines.yml](./bitbucket-pipelines.yml)
+The completed pipeline should be similar to the following: [bitbucket-pipelines.yml](./bitbucket-pipelines.yml)
 
 
 <!-- FooterStart -->
