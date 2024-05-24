@@ -1,6 +1,6 @@
 # 00_01_introduction
 
-In the fast-paced world of software development, efficiency and automation are essential. 
+In the fast-paced world of software development, efficiency and automation are essential.
 
 Bitbucket Pipelines is an automation tool that helps us integrate code, deliver artifacts, and deploy applications simply by pushing code to a git repository.
 
@@ -11,7 +11,6 @@ In this course, we’ll learn how Bitbucket Pipelines can streamline your develo
 Are you ready to enhance your software development workflow?
 
 Let’s dive in and start learning how to use Bitbucket Pipelines for CI/CD.
-
 
 <!-- FooterStart -->
 ---
