@@ -9,8 +9,11 @@ hello:
 	@echo "\tclean       - remove backup files"
 	@echo "\tall         - run all tasks (except clean)"
 
-all: spellcheck toc footer pdf
+all: lint spellcheck toc footer pdf
 	@echo "Done."
+
+lint:
+	docker run -v $(PWD):/workdir davidanson/markdownlint-cli2:v0.13.0 $(README_FILES)
 
 spellcheck:
 	@echo "Spell checking README files..."
@@ -53,4 +56,4 @@ clean:
 nuke: clean
 	find /tmp/ -type f -name \*.pdf -exec rm -vf {} \;
 
-.PHONY: hello spellcheck toc footer pdf countlines chapterlist overlay clean nuke $(DIRECTORIES)
+.PHONY: hello lint spellcheck toc footer pdf countlines chapterlist overlay clean nuke $(DIRECTORIES)
