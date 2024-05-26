@@ -1,6 +1,27 @@
-# 00_03_overview_of_cicd
+# 00_03 Overview of CI/CD
 
-Use [Continuous Integration: Tools - What is CI/CD](https://docs.google.com/document/d/1oWzo6V6QiLqF__TeZggb4uxnxUI0IVmo4vLXYTt6f_w/edit?usp=sharing) as the seed for this script.
+CI/CD is an acronym for three phases of software development:
+
+- Continuous Integration
+- Continuous Delivery
+- Continuous Deployment
+
+## Continuous Integration
+
+- Developers work on their code in a local environment and commit their changes to a shared repository on a regular basis.
+- Committed code is combined with existing code
+- Tests are run to check for errors and confirm requirements
+
+## Continuous Delivery
+
+- Includes an automated build process
+- May include additional, higer-level testing
+- Results in software that is packaged and ready for release or deployment
+
+## Continuous Deployment
+
+- An automated process that places software in a production environment without human interaction.
+- Tests and rules are used to determine if the softeare is read for deployment
 
 <!-- FooterStart -->
 ---

@@ -1,0 +1,13 @@
+{
+  // Disable some built-in rules
+  "config": {
+    //"no-emphasis-as-heading": false,
+    //"fenced-code-language": false,
+    //"first-line-heading": false,
+    //"no-emphasis-as-header": false,
+    //"no-inline-html": false,
+    //"single-h1": false,
+    "line-length": false
+  }
+}
+
