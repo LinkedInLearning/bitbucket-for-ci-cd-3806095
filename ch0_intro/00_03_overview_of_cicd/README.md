@@ -15,13 +15,14 @@ CI/CD is an acronym for three phases of software development:
 ## Continuous Delivery
 
 - Includes an automated build process
-- May include additional, higer-level testing
+- May include additional, higher-level testing
 - Results in software that is packaged and ready for release or deployment
 
 ## Continuous Deployment
 
 - An automated process that places software in a production environment without human interaction.
-- Tests and rules are used to determine if the softeare is read for deployment
+- Tests and rules are used to determine if the software is read for deployment
+
 
 <!-- FooterStart -->
 ---

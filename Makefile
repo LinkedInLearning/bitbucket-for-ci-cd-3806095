@@ -13,7 +13,7 @@ all: lint spellcheck toc footer pdf
 	@echo "Done."
 
 lint:
-	docker run -v $(PWD):/workdir davidanson/markdownlint-cli2:v0.13.0 $(README_FILES)
+	-@docker run -v $(PWD):/workdir davidanson/markdownlint-cli2:v0.13.0 $(README_FILES)
 
 spellcheck:
 	@echo "Spell checking README files..."

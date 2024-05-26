@@ -1,6 +1,5 @@
-# 01_01_create_a_pipeline
+# 01_01 Create a Pipeline
 
-# Introduction
 - Create a workspace, project, and an empty repository
 - Select *Pipelines* from the left-hand menu
 - Click *Create your first pipeline*
@@ -8,8 +7,21 @@
 - Wait for the pipeline to complete
 - Review the stages of the pipeline and the output from each stage
 
+## SHENANIGANS! :D
+
+When this course was initially recorded, the container image used in the Starter Pipeline defaulted to version 3.  However, newer versions are available.  So while the [provided template](./bitbucket-pipelines.yml) may show `atlassian/default-image:3`, you may see different versions used in other pipeline configurations.
+
+To find the latest configuration, check out the image registry on Docker Hub.
+
+- [Docker Hub: atlassian/default-image](https://hub.docker.com/r/atlassian/default-image/tags)
+
+## References
+
+- [Creating a workspace, project, and repository](https://github.com/LinkedInLearning/learning-bitbucket-3821269/tree/main/ch1_get_started/01_08_solution1#readme)
+- [Configure your first pipeline](https://support.atlassian.com/bitbucket-cloud/docs/configure-your-first-pipeline/)
+
 
 <!-- FooterStart -->
 ---
-[← 00_04 Understanding Pipeline Limits](../../ch0_intro/00_04_understanding_pipeline_limits/README.md) | [01_02_bitbucket_configuration_overview →](../01_02_bitbucket_piplines_configuration/README.md)
+[← 00_04 Understanding Pipeline Limits](../../ch0_intro/00_04_understanding_pipeline_limits/README.md) | [01_02 Bitbucket Configuration Overview →](../01_02_bitbucket_piplines_configuration/README.md)
 <!-- FooterEnd -->

@@ -12,6 +12,7 @@ Are you ready to enhance your software development workflow?
 
 Let’s dive in and start learning how to use Bitbucket Pipelines for CI/CD.
 
+
 <!-- FooterStart -->
 ---
 [← Bitbucket Pipelines for CI/CD](../../README.md) | [00_02_what_you_should_know →](../00_02_what_you_should_know/README.md)
