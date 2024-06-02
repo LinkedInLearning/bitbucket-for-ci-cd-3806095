@@ -120,19 +120,19 @@ This challenge should take about 15 minutes to complete.
 
 ### Create Branches to Validate the Pipeline Configuration
 
-Create branches using the `feature/` and `bugfix/` prefixes to trigger their corresponding pipelines. 
+Create branches using the `bugfix/` and `feature/` prefixes to trigger their corresponding pipelines.
 
 Make changes to the files as needed, commit the changes, create a PR and merge the changes into the `main` branch.
 
 Using the following images to validate the pipeline configuration.
 
-1. Create a feature branch and validate the pipeline configuration.
-
-    ![Image for `feature/*` pipeline](./images/2-01_07-feature-pipeline.png)
-
 1. Create a bugfix branch and validate the pipeline configuration.
 
     ![Image for the `default` pipeline](./images/1-01_07-bugfix-pipeline.png)
+
+1. Create a feature branch and validate the pipeline configuration.
+
+    ![Image for `feature/*` pipeline](./images/2-01_07-feature-pipeline.png)
 
 1. Validate the pipeline configuration for the `main` branch.
 
