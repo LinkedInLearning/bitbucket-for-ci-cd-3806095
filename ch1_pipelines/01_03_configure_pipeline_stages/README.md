@@ -9,7 +9,6 @@ The new configuration uses the `stage` keyword to group all the steps together f
 
 The `manual` trigger is also removed.
 
-
 ## Pipline before update
 
 ![Pipline before update](./images/0-before-SCR-20240602-maod.png)
