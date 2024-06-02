@@ -23,6 +23,7 @@ CI/CD is an acronym for three phases of software development:
 - An automated process that places software in a production environment without human interaction.
 - Tests and rules are used to determine if the software is read for deployment
 
+
 <!-- FooterStart -->
 ---
 [← 00_02_what_you_should_know](../00_02_what_you_should_know/README.md) | [00_04 Understanding Pipeline Limits →](../00_04_understanding_pipeline_limits/README.md)

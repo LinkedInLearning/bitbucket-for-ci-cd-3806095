@@ -31,6 +31,7 @@ If you ever want to check your pipeline for errors, use the [validator for bitbu
 
 - [YAML for beginners](https://www.redhat.com/sysadmin/yaml-beginners)
 
+
 <!-- FooterStart -->
 ---
 [← 01_01 Create a Pipeline](../01_01_create_a_pipeline/README.md) | [01_03_configure_pipeline_stages →](../01_03_configure_pipeline_stages/README.md)

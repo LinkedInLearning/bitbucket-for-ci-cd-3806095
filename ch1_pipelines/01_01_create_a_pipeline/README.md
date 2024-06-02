@@ -21,7 +21,8 @@ To find the latest configuration, check out the image registry on Docker Hub.
 
 - [Creating a workspace, project, and repository](https://github.com/LinkedInLearning/learning-bitbucket-3821269/tree/main/ch1_get_started/01_08_solution1#readme)
 - [Configure your first pipeline](https://support.atlassian.com/bitbucket-cloud/docs/configure-your-first-pipeline/)
-- [Reference file: bicketbucket-pipelines.yml](./bitbucket-pipelines.yml)
+- [Reference file: bitbucket-pipelines.yml](./bitbucket-pipelines.yml)
+
 
 <!-- FooterStart -->
 ---

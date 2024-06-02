@@ -138,6 +138,7 @@ Using the following images to validate the pipeline configuration.
 
     ![Image for `main` pipeline](./images/3-01_07-main-pipeline.png)
 
+
 <!-- FooterStart -->
 ---
 [← 01_06 Challenge: Create a Pipeline](../01_06_challenge/README.md) | [02_01_using_variables_and_secrets →](../../ch2_vars_artifacts/02_01_variables_and_secrets/README.md)

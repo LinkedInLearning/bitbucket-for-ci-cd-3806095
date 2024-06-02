@@ -101,6 +101,7 @@ The updated pipeline includes `after-script` triggers for the "staging" and "pro
 
 ![Default pipeline run (after merge)](./images/4-SCR-20240602-morb.png)
 
+
 <!-- FooterStart -->
 ---
 [← 01_03_configure_pipeline_stages](../01_03_configure_pipeline_stages/README.md) | [01_05_use_yaml_anchors →](../01_05_use_yaml_anchors/README.md)

@@ -4,7 +4,7 @@ To keep our pipeline configurations DRY ("Don't Repeat Yourself"), we can use YA
 
 - YAML anchors are placed in the definitions block at the beginning of a pipeline configuration file.  
 - Anchors are referenced using the anchor’s alias.
-- Some values of an anchor can be overidden
+- Some values of an anchor can be overridden
 
 ## YAML anchor definition
 
@@ -32,6 +32,7 @@ The best approach is to pick a style that works for you (definitions at the begi
 
 - [A YAML Syntax reference](https://www.linode.com/docs/guides/yaml-reference/)
 - [YAML Anchors, Aliases, and Overrides](https://www.linode.com/docs/guides/yaml-anchors-aliases-overrides-extensions/)
+
 
 <!-- FooterStart -->
 ---

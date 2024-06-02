@@ -9,13 +9,14 @@ The new configuration uses the `stage` keyword to group all the steps together f
 
 The `manual` trigger is also removed.
 
-## Pipline before update
+## Pipeline before update
 
-![Pipline before update](./images/0-before-SCR-20240602-maod.png)
+![Pipeline before update](./images/0-before-SCR-20240602-maod.png)
 
 ## Pipeline after update
 
-![Pipline after update](./images/1-after-SCR-20240602-mabh.png)
+![Pipeline after update](./images/1-after-SCR-20240602-mabh.png)
+
 
 <!-- FooterStart -->
 ---

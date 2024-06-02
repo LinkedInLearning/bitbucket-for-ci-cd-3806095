@@ -40,6 +40,7 @@ Also, please check out the Q&A section to provide answers! As a community, we’
 
 - [Learning Bitbucket](https://www.linkedin.com/learning/learning-bitbucket)
 
+
 <!-- FooterStart -->
 ---
 [← 00_01_introduction](../00_01_introduction/README.md) | [00_03 Overview of CI/CD →](../00_03_overview_of_cicd/README.md)
