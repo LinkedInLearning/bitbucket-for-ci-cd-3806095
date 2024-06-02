@@ -3,22 +3,19 @@ image: atlassian/default-image:4
 definitions:
   steps:
     - step: &build_and_test
-        name: Build and Test
+        name: 'Build and Test'
         script:
           - echo "Your build and test goes here..."
-
     - step: &lint
-        name: Lint
+        name: 'Lint'
         script:
           - echo "Your linting goes here..."
-
     - step: &security_scan
-        name: Security scan
+        name: 'Security scan'
         script:
           - echo "Your security scan goes here..."
-
     - step: &deployment_to_staging
-        name: Deployment to Staging
+        name: 'Deployment to Staging'
         deployment: staging
         script:
           - echo "Your deployment to staging script goes here..."
@@ -26,24 +23,23 @@ definitions:
 pipelines:
   default:
     - parallel:
-        - step: *build_and_test
-        - step: *lint
-        - step: *security_scan
+      - step: *build_and_test
+      - step: *lint
+      - step: *security_scan
 
   branches:
     feature/*:
       - parallel:
-          - step: *build_and_test
-          - step: *lint
-          - step: *security_scan
+        - step: *build_and_test
+        - step: *lint
+        - step: *security_scan
 
       - step: *deployment_to_staging
-
     main:
       - parallel:
-          - step: *build_and_test
-          - step: *lint
-          - step: *security_scan
+        - step: *build_and_test
+        - step: *lint
+        - step: *security_scan
 
       - stage:
           name: Staging
@@ -58,4 +54,3 @@ pipelines:
                 deployment: production
                 script:
                   - echo "Your deployment to production script goes here..."
-
