@@ -1,6 +1,6 @@
-# 01_03_configure_pipeline_stages
+# 01_03 Configure Pipeline Stages
 
-If our deployments include multiple steps, we can group them together using stages.  
+If our deployments include multiple steps, we can group them together using stages.
 
 Use the configuration for this lesson to update the pipeline configuration.
     - [`bitbucket-pipelines.yml`](./bitbucket-pipelines.yml)

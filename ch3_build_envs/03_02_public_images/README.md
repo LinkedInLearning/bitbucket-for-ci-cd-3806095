@@ -1,5 +1,4 @@
-# 03_02_public_images
-
+# 03_02 Public Images
 Atlassian provides default images with some tools installed
 
 Most projects will need additional tools for
@@ -77,7 +76,8 @@ Use the following pipelines to experiment with installing tools in the default i
 
 - [Ubuntu Server: Package management](https://ubuntu.com/server/docs/package-management)
 
+
 <!-- FooterStart -->
 ---
-[← 03_01_default_images](../03_01_default_images/README.md) | [03_03_services →](../03_03_services/README.md)
+[← 03_01 Default Images](../03_01_default_images/README.md) | [03_03 Services →](../03_03_services/README.md)
 <!-- FooterEnd -->

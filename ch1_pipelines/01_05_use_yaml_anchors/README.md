@@ -1,8 +1,8 @@
-# 01_05_use_yaml_anchors
+# 01_05 Use YAML Anchors
 
 To keep our pipeline configurations DRY ("Don't Repeat Yourself"), we can use YAML anchors to create reusable steps.
 
-- YAML anchors are placed in the definitions block at the beginning of a pipeline configuration file.  
+- YAML anchors are placed in the definitions block at the beginning of a pipeline configuration file.
 - Anchors are referenced using the anchor’s alias.
 - Some values of an anchor can be overridden
 
@@ -22,9 +22,9 @@ To keep our pipeline configurations DRY ("Don't Repeat Yourself"), we can use YA
 
 Previously, this very document includes the following statement:
 
-> YAML anchors are placed in the **definitions** block at the **beginning** of a pipeline configuration file.  
+> YAML anchors are placed in the **definitions** block at the **beginning** of a pipeline configuration file.
 
-Actually, the `definitions` block of a pipeline can be placed anywhere in the pipeline configuration, as long as the resulting YAML is valid.  So it can actually be placed at the end of the pipeline configuration.  
+Actually, the `definitions` block of a pipeline can be placed anywhere in the pipeline configuration, as long as the resulting YAML is valid.  So it can actually be placed at the end of the pipeline configuration.
 
 The best approach is to pick a style that works for you (definitions at the beginning or end) and stick to it.
 

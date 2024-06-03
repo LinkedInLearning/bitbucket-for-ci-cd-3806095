@@ -97,8 +97,7 @@ Check out the entry in the [references](#references) for the complete listing of
 - [Use Docker images as build environments ](https://support.atlassian.com/bitbucket-cloud/docs/use-docker-images-as-build-environments/)
 
 
-
 <!-- FooterStart -->
 ---
-[← 02_06 Solution: Deploy an Artifact](../../ch2_vars_artifacts/02_06_solution/README.md) | [03_02_public_images →](../03_02_public_images/README.md)
+[← 02_06 Solution: Deploy an Artifact](../../ch2_vars_artifacts/02_06_solution/README.md) | [03_02 Public Images →](../03_02_public_images/README.md)
 <!-- FooterEnd -->

@@ -1,4 +1,4 @@
-# 03_03_services
+# 03_03 Services
 
 Services are additional containers that run along with the container images running pipeline steps.
 
@@ -22,7 +22,7 @@ definitions:
         POSTGRES_USER: 'db'
         POSTGRES_PASSWORD: 'testingtesting123'
 ```
-Once the service is defined, we can reference the service in any steps where it's needed.  
+Once the service is defined, we can reference the service in any steps where it's needed.
 
 ```yaml
 - step:
@@ -62,5 +62,5 @@ Once the service is defined, we can reference the service in any steps where it'
 
 <!-- FooterStart -->
 ---
-[← 03_02_public_images](../03_02_public_images/README.md) | [03_04_challenge →](../03_04_challenge/README.md)
+[← 03_02 Public Images](../03_02_public_images/README.md) | [03_04 Challenge →](../03_04_challenge/README.md)
 <!-- FooterEnd -->

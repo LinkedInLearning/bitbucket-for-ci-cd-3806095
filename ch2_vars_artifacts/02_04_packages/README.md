@@ -1,4 +1,4 @@
-# 02_04_packages
+# 02_04 Packages
 
 Artifacts are best used within a pipeline.  For long term usage, packages are the better option.
 
@@ -33,7 +33,7 @@ Store the token in a repository variable for access from pipelines.
 
 Bitbucket pipes are Docker images designed specifically for use as steps in Bitbucket pipelines.
 
-An in-depth discussion of pipes is beyond the scope of this course.  
+An in-depth discussion of pipes is beyond the scope of this course.
 
 Review the following support article for more information on pipes:
 
@@ -77,7 +77,8 @@ Review the following support article for more information on pipes:
 
 - [Pipe: bitbucket-upload-file](https://bitbucket.org/atlassian/bitbucket-upload-file/src/master/)
 
+
 <!-- FooterStart -->
 ---
-[← 02_03: Pipeline Artifacts](../02_03_artifacts/README.md) | [02_05 Challenge: Deploy an Artifact →](../02_05_challenge/README.md)
+[← 02_03 Pipeline Artifacts](../02_03_artifacts/README.md) | [02_05 Challenge: Deploy an Artifact →](../02_05_challenge/README.md)
 <!-- FooterEnd -->

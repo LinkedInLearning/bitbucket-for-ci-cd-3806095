@@ -1,4 +1,4 @@
-# 00_01_introduction
+# 00_01 Introduction
 
 In the fast-paced world of software development, efficiency and automation are essential.
 
@@ -15,5 +15,5 @@ Let’s dive in and start learning how to use Bitbucket Pipelines for CI/CD.
 
 <!-- FooterStart -->
 ---
-[← Bitbucket Pipelines for CI/CD](../../README.md) | [00_02_what_you_should_know →](../00_02_what_you_should_know/README.md)
+[← Bitbucket Pipelines for CI/CD](../../README.md) | [00_02 What You Should Know →](../00_02_what_you_should_know/README.md)
 <!-- FooterEnd -->

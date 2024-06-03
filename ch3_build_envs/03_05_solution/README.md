@@ -1,4 +1,4 @@
-# 03_05_solution
+# 03_05 Solution
 
 ## Challenge Scenario
 
@@ -91,7 +91,8 @@ Before making any updates to the feature, the development team would like to tes
 
 The completed pipeline should be similar to the following: [bitbucket-pipelines.yml](./bitbucket-pipelines.yml)
 
+
 <!-- FooterStart -->
 ---
-[← 03_04_challenge](../03_04_challenge/README.md) | [04_01_next_steps →](../../ch4_conclusion/04_01_next_steps/README.md)
+[← 03_04 Challenge](../03_04_challenge/README.md) | [04_01 Next Steps →](../../ch4_conclusion/04_01_next_steps/README.md)
 <!-- FooterEnd -->

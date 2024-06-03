@@ -1,4 +1,4 @@
-# 02_02_deployment_vars
+# 02_02 Using Deployment Variables
 
 Deployment variables allow us to develop pipelines that use the same steps for different environments.
 
@@ -22,7 +22,8 @@ By using override capabilities, we can use the same variable name with different
 
     ![Observe the output from the pipeline](./images/1-SCR-20240602-nrkf.png)
 
+
 <!-- FooterStart -->
 ---
-[← 02_01_using_variables_and_secrets](../02_01_variables_and_secrets/README.md) | [02_03: Pipeline Artifacts →](../02_03_artifacts/README.md)
+[← 02_01 Using Variables and Secrets](../02_01_variables_and_secrets/README.md) | [02_03 Pipeline Artifacts →](../02_03_artifacts/README.md)
 <!-- FooterEnd -->

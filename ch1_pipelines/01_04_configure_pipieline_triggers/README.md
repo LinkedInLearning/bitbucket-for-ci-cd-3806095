@@ -104,5 +104,5 @@ The updated pipeline includes `after-script` triggers for the "staging" and "pro
 
 <!-- FooterStart -->
 ---
-[← 01_03_configure_pipeline_stages](../01_03_configure_pipeline_stages/README.md) | [01_05_use_yaml_anchors →](../01_05_use_yaml_anchors/README.md)
+[← 01_03 Configure Pipeline Stages](../01_03_configure_pipeline_stages/README.md) | [01_05 Use YAML Anchors →](../01_05_use_yaml_anchors/README.md)
 <!-- FooterEnd -->

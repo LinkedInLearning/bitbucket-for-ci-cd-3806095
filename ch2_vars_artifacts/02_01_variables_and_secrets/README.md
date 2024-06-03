@@ -1,4 +1,4 @@
-# 02_01_using_variables_and_secrets
+# 02_01 Using Variables and Secrets
 
 To keep our pipelines flexible, we can use variables.
 
@@ -40,7 +40,7 @@ Pipeline variables can be defined in the following locations:
 
 Variables can be overridden if the same name is defined in multiple locations.
 
-For overrides, the order of precedence from highest to least is: 
+For overrides, the order of precedence from highest to least is:
 
 - deployment variables
 - repository variables
@@ -53,7 +53,8 @@ For overrides, the order of precedence from highest to least is:
 
 - [Variables and Secrets](https://support.atlassian.com/bitbucket-cloud/docs/variables-and-secrets/)
 
+
 <!-- FooterStart -->
 ---
-[← 01_07 Solution: Create a Pipeline](../../ch1_pipelines/01_07_solution/README.md) | [02_02_deployment_vars →](../02_02_deployment_vars/README.md)
+[← 01_07 Solution: Create a Pipeline](../../ch1_pipelines/01_07_solution/README.md) | [02_02 Using Deployment Variables →](../02_02_deployment_vars/README.md)
 <!-- FooterEnd -->

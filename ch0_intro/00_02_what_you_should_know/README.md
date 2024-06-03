@@ -1,4 +1,4 @@
-# 00_02_what_you_should_know
+# 00_02 What You Should Know
 
 ## Introduction
 
@@ -32,7 +32,7 @@ If you’re planning to follow along with the examples and course challenges, yo
 
 Please use the exercise files as a reference while taking the course.
 
-If you get stuck on something and you need a bit more help than you can find in the exercise files, please use the Course Q&A section.  Ask your question there and I’ll do my best to help you out.  If other folks have gotten stuck in the same place, they might join in the discussion and share their solution.  
+If you get stuck on something and you need a bit more help than you can find in the exercise files, please use the Course Q&A section.  Ask your question there and I’ll do my best to help you out.  If other folks have gotten stuck in the same place, they might join in the discussion and share their solution.
 
 Also, please check out the Q&A section to provide answers! As a community, we’ll use the Q&A to collaborate on a positive learning experience for everyone.
 
@@ -43,5 +43,5 @@ Also, please check out the Q&A section to provide answers! As a community, we’
 
 <!-- FooterStart -->
 ---
-[← 00_01_introduction](../00_01_introduction/README.md) | [00_03 Overview of CI/CD →](../00_03_overview_of_cicd/README.md)
+[← 00_01 Introduction](../00_01_introduction/README.md) | [00_03 Overview of CI/CD →](../00_03_overview_of_cicd/README.md)
 <!-- FooterEnd -->

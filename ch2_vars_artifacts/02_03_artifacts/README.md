@@ -1,4 +1,4 @@
-# 02_03: Pipeline Artifacts
+# 02_03 Pipeline Artifacts
 
 Files written to disk by a step are called **artifacts**.
 
@@ -78,7 +78,7 @@ The default behavior for pipeline steps is to download artifacts from all previo
 
 ### Artifacts and parallel steps
 
-If an artifact is created in a parallel step, the artifact can't reliably be consumed in another parallel step.  
+If an artifact is created in a parallel step, the artifact can't reliably be consumed in another parallel step.
 
 Because the order of the steps is not known, the step looking for the artifact might run before the artifact is available causing the step (and perhaps even the pipeline) to fail.
 
@@ -93,7 +93,8 @@ The following documentation has the specifics:
 - [Pipeline Artifacts](https://support.atlassian.com/bitbucket-cloud/docs/use-artifacts-in-steps/)
 - [Step options: Artifacts](https://support.atlassian.com/bitbucket-cloud/docs/step-options/#Artifacts)
 
+
 <!-- FooterStart -->
 ---
-[← 02_02_deployment_vars](../02_02_deployment_vars/README.md) | [02_04_packages →](../02_04_packages/README.md)
+[← 02_02 Using Deployment Variables](../02_02_deployment_vars/README.md) | [02_04 Packages →](../02_04_packages/README.md)
 <!-- FooterEnd -->

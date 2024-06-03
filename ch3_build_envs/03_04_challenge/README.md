@@ -1,4 +1,4 @@
-# 03_04_challenge
+# 03_04 Challenge
 
 ## Challenge Scenario
 
@@ -62,5 +62,5 @@ Before making any updates to the feature, the development team would like to tes
 
 <!-- FooterStart -->
 ---
-[← 03_03_services](../03_03_services/README.md) | [03_05_solution →](../03_05_solution/README.md)
+[← 03_03 Services](../03_03_services/README.md) | [03_05 Solution →](../03_05_solution/README.md)
 <!-- FooterEnd -->
