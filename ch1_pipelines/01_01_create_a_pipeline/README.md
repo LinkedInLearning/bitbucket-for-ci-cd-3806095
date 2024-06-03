@@ -11,9 +11,10 @@
 
 ## SHENANIGANS! :D
 
+## Versions for `default-image`
 When this course was initially recorded, the container image used in the Starter Pipeline defaulted to version 3.  However, newer versions are available.  So while the [provided template](./bitbucket-pipelines.yml) may show `atlassian/default-image:3`, you may see different versions used in other pipeline configurations.
 
-To find the latest configuration, check out the image registry on Docker Hub.
+To find configuration details, check out the image registry on Docker Hub.
 
 - [Docker Hub: atlassian/default-image](https://hub.docker.com/r/atlassian/default-image/tags)
 

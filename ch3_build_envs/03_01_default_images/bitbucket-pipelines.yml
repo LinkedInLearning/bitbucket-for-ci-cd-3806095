@@ -1,0 +1,86 @@
+definitions:
+  services:
+    docker:
+      memory: 1024
+
+  steps:
+    - &inspect_build_environment
+      script: 
+        - |
+          echo "Inspecting Build Environment..."
+          echo "Checking Git version: $(git --version || echo not installed)"
+          echo "Checking Node.js version: $(node --version || echo not installed)"
+          echo "Checking npm version: $(npm --version || echo not installed)"
+          echo "Checking Python version: $(python --version || echo not installed)"
+          echo "Checking Pip version: $(pip --version || echo not installed)"
+          echo "Checking Ruby version: $(ruby --version || echo not installed)"
+          echo "Checking Bundler version: $(bundle --version || echo not installed)"
+          echo "Checking Java version: $(java -version || echo not installed)"
+          echo "Checking Maven version: $(mvn --version || echo not installed)"
+          echo "Checking Gradle version: $(gradle --version || echo not installed)"
+          echo "Checking Docker version: $(docker --version || echo not installed)"
+          echo "Checking AWS CLI version: $(aws --version || echo not installed)"
+          echo "Checking kubectl version: $(kubectl version --client || echo not installed)"
+          echo "Environment inspection completed."
+
+    - &inspect_operating_system
+      script: 
+        - |
+          echo "Inspecting Operating System..."
+          echo "Operating System Details: $(lsb_release -a)"
+          echo "Kernel Version: $(uname -r)"
+          echo "OS Information: $(cat /etc/os-release)"
+          echo "Inspecting CPU Information: $(lscpu)"
+          echo "Inspecting Memory Information: $(free -h)"
+          echo "Operating System inspection completed."
+
+pipelines:
+  default:
+    - stage:
+        name: v1 and latest
+        steps:
+          - step:
+              <<: *inspect_build_environment
+              name: Inspect Build Environment for atlassian/default-image latest
+              image: atlassian/default-image:latest
+          - step:
+              <<: *inspect_operating_system
+              name: Inspect Operating System for atlassian/default-image latest
+              image: atlassian/default-image:latest
+
+    - stage:
+        name: v2
+        steps:
+          - step:
+              <<: *inspect_build_environment
+              name: Inspect Build Environment for atlassian/default-image v2
+              image: atlassian/default-image:2
+          - step:
+              <<: *inspect_operating_system
+              name: Inspect Operating System for atlassian/default-image v2
+              image: atlassian/default-image:2
+
+    - stage:
+        name: v3
+        steps:
+          - step:
+              <<: *inspect_build_environment
+              name: Inspect Build Environment for atlassian/default-image v3
+              image: atlassian/default-image:3
+          - step:
+              <<: *inspect_operating_system
+              name: Inspect Operating System for atlassian/default-image v3
+              image: atlassian/default-image:3
+
+    - stage:
+        name: v4
+        steps:
+          - step:
+              <<: *inspect_build_environment
+              name: Inspect Build Environment for atlassian/default-image v4
+              image: atlassian/default-image:4
+          - step:
+              <<: *inspect_operating_system
+              name: Inspect Operating System for atlassian/default-image v4
+              image: atlassian/default-image:4
+
