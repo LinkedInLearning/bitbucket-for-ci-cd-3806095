@@ -66,7 +66,7 @@ Before making any updates to the feature, the development team would like to tes
     1. Cloning the Bitbucket repo
     1. Moving the files into your Bitbucket repo
     1. Pushing the files up to Bitbucket
-1. Edit the pipeline configuration and add `definitions:` block.
+1. Edit the pipeline configuration and add a `definitions:` block.
 1. Add the provided `database:` block.
 
     ```YAML
@@ -79,16 +79,17 @@ Before making any updates to the feature, the development team would like to tes
             POSTGRES_USER: 'testing'
             POSTGRES_PASSWORD: 'testing'
     ```
+
 1. Add the `database` service to each step using a `service:` block.
 
     ```YAML
     services:
       - database
     ```
-1. Update each step to use the correct and image and commands to run tests.
+
+1. Update each step to use the correct image and commands to run tests.
 
 The completed pipeline should be similar to the following: [bitbucket-pipelines.yml](./bitbucket-pipelines.yml)
-
 
 <!-- FooterStart -->
 ---
