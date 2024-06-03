@@ -10,7 +10,7 @@ hello:
 	@echo "\tall         - run all tasks (except clean)"
 
 #all: lint spellcheck toc footer pdf
-all: spellcheck footer
+all: lint spellcheck footer
 	@echo "Done."
 
 lint:
