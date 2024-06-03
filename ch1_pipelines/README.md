@@ -1,6 +1,0 @@
-# NAME
-<!-- TocStart -->
-<!-- TocEnd -->
-
-<!-- FooterSkip -->
-
