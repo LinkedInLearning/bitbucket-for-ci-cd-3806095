@@ -112,7 +112,6 @@ Now, the plugin team needs help updating their continuous delivery workflow.  Th
 1. Copy the link for the repository and open it in an incognito tab.
 1. Confirm that the package can be downloaded.
 
-
 <!-- FooterStart -->
 ---
 [← 02_05 Challenge: Deploy an Artifact](../02_05_challenge/README.md) | [03_01_default_images →](../../ch3_build_envs/03_01_default_images/README.md)

@@ -47,7 +47,6 @@ Now, the plugin team needs help updating their continuous delivery workflow.  Th
 1. Confirm that the artifact and package are created successfully.
 1. Confirm that the package is available to anyone with the repository URL.
 
-
 <!-- FooterStart -->
 ---
 [← 02_04_packages](../02_04_packages/README.md) | [02_06 Solution: Deploy an Artifact →](../02_06_solution/README.md)
