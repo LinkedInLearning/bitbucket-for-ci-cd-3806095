@@ -14,7 +14,8 @@ all: spellcheck footer
 	@echo "Done."
 
 lint:
-	-@docker run -v $(PWD):/workdir davidanson/markdownlint-cli2:v0.13.0 $(README_FILES)
+	-@docker run -v $(PWD):/workdir davidanson/markdownlint-cli2:v0.13.0 $(README_FILES) 2>&1 | \
+		docker run --interactive ghcr.io/managedkaos/summarize-markdown-lint:main
 
 spellcheck:
 	@echo "Spell checking README files..."
