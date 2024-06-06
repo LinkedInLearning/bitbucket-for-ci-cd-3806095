@@ -14,6 +14,8 @@ all: lint spellcheck footer
 	@echo "Done."
 
 lint:
+	-@docker pull ghcr.io/managedkaos/summarize-markdown-lint:main
+	-@docker pull davidanson/markdownlint-cli2:v0.13.0
 	-@docker run -v $(PWD):/workdir davidanson/markdownlint-cli2:v0.13.0 $(README_FILES) 2>&1 | \
 		docker run --interactive ghcr.io/managedkaos/summarize-markdown-lint:main
 
@@ -29,12 +31,12 @@ spellcheck:
 
 toc:
 	@echo "Generating table of contents for README files..."
-	@docker pull ghcr.io/managedkaos/readme-toc-generator:main
+	-@docker pull ghcr.io/managedkaos/readme-toc-generator:main
 	@docker run --rm --volume $(PWD):/data ghcr.io/managedkaos/readme-toc-generator:main
 
 footer:
 	@echo "Generating footer links for README files..."
-	@docker pull ghcr.io/managedkaos/readme-footer-generator:main
+	-@docker pull ghcr.io/managedkaos/readme-footer-generator:main
 	@docker run --rm --volume $(PWD):/data ghcr.io/managedkaos/readme-footer-generator:main
 
 pdf: $(DIRECTORIES)
