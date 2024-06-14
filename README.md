@@ -2,6 +2,12 @@
 
 This is the repository for the LinkedIn Learning course Bitbucket for CI/CD. The full course is available from [LinkedIn Learning][lil-course-url].
 
+![lil-thumbnail-url]
+
+<p>To get the most out of this course, you should have an understanding of Git, Atlassian accounts, and Bitbucket basics.</p>
+
+<p>In this course, lead software engineer Michael Jenkins guides you through how to use Bitbucket Pipelines for your software projects. Gain a solid understanding of continuous integration, continuous delivery, and continuous deployment (CI/CD) to prepare for the role of Bitbucket Pipelines in these processes. Dive into the details of configuring Pipelines and challenge yourself to create workflows with custom images, services, and artifacts.</p>
+
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
 
@@ -23,18 +29,19 @@ To resolve this issue:
     Add changes to git using this command: git add .
     Commit changes using this command: git commit -m "some message"
 
-## Installing
+### Instructor
 
-1. To use these exercise files, you must have the following installed:
-    - [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+Michael Jenkins
+
+Senior Systems Engineer               
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/michael-jenkins?u=104).
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+[lil-course-url]: [https://www.linkedin.com/learning/](https://www.linkedin.com/learning/bitbucket-pipelines-for-ci-cd)
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQEGSbU6WPTNPA/learning-public-crop_675_1200/0/1718128326646?e=2147483647&v=beta&t=tRP8UfgYQWcLebBhnMicSpxkPswXpZd5HH39o_zZWl0
 
 
 <!-- FooterStart -->
